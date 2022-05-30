@@ -24,7 +24,7 @@ const generateMovingFace = () => {
 
 const startMoving = () => {
   const intervalId = setInterval(() => generateMovingFace(), 100);
-  setTimeout(() => clearInterval(intervalId), 1000);
+  setTimeout(() => clearInterval(intervalId), 10000);
 };
 
 startMoving();
